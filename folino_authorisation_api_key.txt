@@ -1,0 +1,3 @@
+https://auth.emilfolino.se/documentation.html
+API key - bc30f081c7abf098bc29801e16bd62ba - old
+API key - 5e2112b3272eba0cb69518d5b14e1f73

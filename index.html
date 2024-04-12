@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="se">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Content Security Policy
+        READ MORE https://dbwebb.se/kunskap/content-security-policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://trafik.emilfolino.se 'unsafe-eval'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src https://auth.emilfolino.se  https://trafik.emilfolino.se https://nominatim.openstreetmap.org data:; img-src 'self' https://tile.openstreetmap.org data: https://ucarecdn.com">
+
+
+
+    <title>Tågförseningar</title>
+
+    <link rel="stylesheet" href="leaflet/leaflet.min.css" />
+    <link rel="stylesheet" href="leaflet/MarkerCluster.css" />
+    <link rel="stylesheet" href="leaflet/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="style.min.css" />
+    <script src="leaflet/leaflet.min.js"></script>
+    <script src="leaflet/heatmap.js"></script>
+    <script src="leaflet/leaflet-heatmap.js"></script>
+    <script type="module" src="main.js" defer></script>
+
+
+</head>
+
+<body>
+
+    <router-outlet></router-outlet>
+    <navigation-outlet></navigation-outlet>
+</body>
+
+</html>

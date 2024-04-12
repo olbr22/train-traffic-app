@@ -1,0 +1,28 @@
+{
+    "name": "delays",
+    "version": "1.0.0",
+    "description": "A web application that provides information about train delays in Sweden.",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "style": "sass base.scss style.css --no-source-map",
+        "style-min": "sass style/base.scss style.min.css  --no-source-map --style compressed",
+        "style-watch": "sass --watch style/base.scss:style.min.css",
+        "lint": "eslint . --fix",
+        "lint-style": "stylelint style/*.scss --fix"
+    },
+    "keywords": [],
+    "author": "Olha Bruce",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "sass": "^1.62.0",
+        "stylelint": "^16.3.1",
+        "stylelint-scss": "^6.2.1"
+    },
+    "dependencies": {
+        "heatmap.js": "^2.0.5",
+        "leaflet": "^1.9.4",
+        "leaflet.markercluster": "^1.5.3"
+    }
+}
