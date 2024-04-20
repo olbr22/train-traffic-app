@@ -1,5 +1,9 @@
-export default class FavoriteStation extends HTMLElement {
+export default class ErrorHandler extends HTMLElement {
     connectedCallback() {
+        this.render();
+    }
+
+    render() {
         this.innerHTML = `
             <div class="error-message">
                 <h1>Oops! Something went wrong</h1>
